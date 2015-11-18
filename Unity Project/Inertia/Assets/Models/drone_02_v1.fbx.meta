@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: afadbb509ef11a2429571c82f5e97dc7
+timeCreated: 1447723652
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: body
+    100002: body_1
+    100004: body_1_control
+    100006: body_1_control_group
+    100008: body_1_joint
+    100010: body_2
+    100012: body_2_control
+    100014: body_2_control_group
+    100016: body_2_joint
+    100018: body_3
+    100020: body_3_control
+    100022: body_3_control_group
+    100024: body_3_joint
+    100026: body_4
+    100028: body_4_joint
+    100030: body_5_end
+    100032: //RootNode
+    100034: face
+    100036: face_control
+    100038: face_control_group
+    100040: main_control
+    100042: main_control_group
+    100044: ship_control
+    100046: ship_control_group
+    100048: ship_geo
+    100050: tail
+    100052: tail_1
+    100054: tail_2
+    100056: tail_3
+    100058: tail_control
+    100060: tail_control_group
+    400000: body
+    400002: body_1
+    400004: body_1_control
+    400006: body_1_control_group
+    400008: body_1_joint
+    400010: body_2
+    400012: body_2_control
+    400014: body_2_control_group
+    400016: body_2_joint
+    400018: body_3
+    400020: body_3_control
+    400022: body_3_control_group
+    400024: body_3_joint
+    400026: body_4
+    400028: body_4_joint
+    400030: body_5_end
+    400032: //RootNode
+    400034: face
+    400036: face_control
+    400038: face_control_group
+    400040: main_control
+    400042: main_control_group
+    400044: ship_control
+    400046: ship_control_group
+    400048: ship_geo
+    400050: tail
+    400052: tail_1
+    400054: tail_2
+    400056: tail_3
+    400058: tail_control
+    400060: tail_control_group
+    4300000: tail_3
+    4300002: tail_2
+    4300004: tail_1
+    4300006: body_3
+    4300008: body_4
+    4300010: body_2
+    4300012: body_1
+    4300014: face
+    7400000: idle1
+    7400002: idel2
+    7400004: idle3
+    9500000: //RootNode
+    13700000: body_1
+    13700002: body_2
+    13700004: body_3
+    13700006: body_4
+    13700008: face
+    13700010: tail_1
+    13700012: tail_2
+    13700014: tail_3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body_1_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint/body_4_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint/body_4_joint/body_5_end
+        weight: 1
+      - path: main_control_group
+        weight: 1
+      - path: main_control_group/main_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group/body_1_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group/body_1_control/body_1
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group/body_2_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group/body_2_control/body_2
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control/body_3
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control/body_4
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_1
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_2
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_3
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group/face_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group/face_control/face
+        weight: 1
+      - path: ship_control_group
+        weight: 1
+      - path: ship_control_group/ship_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idel2
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body_1_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint/body_4_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint/body_4_joint/body_5_end
+        weight: 1
+      - path: main_control_group
+        weight: 1
+      - path: main_control_group/main_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group/body_1_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group/body_1_control/body_1
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group/body_2_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group/body_2_control/body_2
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control/body_3
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control/body_4
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_1
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_2
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_3
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group/face_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group/face_control/face
+        weight: 1
+      - path: ship_control_group
+        weight: 1
+      - path: ship_control_group/ship_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle3
+      takeName: Take 001
+      firstFrame: 97
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body_1_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint/body_4_joint
+        weight: 1
+      - path: body_1_joint/body_2_joint/body_3_joint/body_4_joint/body_5_end
+        weight: 1
+      - path: main_control_group
+        weight: 1
+      - path: main_control_group/main_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group/body_1_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_1_control_group/body_1_control/body_1
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group/body_2_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_2_control_group/body_2_control/body_2
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control/body_3
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/body_3_control_group/body_3_control/body_4
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_1
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_2
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/body/tail_control_group/tail_control/tail/tail_3
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group/face_control
+        weight: 1
+      - path: main_control_group/main_control/ship_geo/face_control_group/face_control/face
+        weight: 1
+      - path: ship_control_group
+        weight: 1
+      - path: ship_control_group/ship_control
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
